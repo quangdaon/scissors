@@ -1,0 +1,12 @@
+{
+  "name": "@quangdao/scissors",
+  "version": "1.0.0",
+  "description": "Opinionated Utilities for SCSS",
+  "main": "./scss/index.scss",
+  "style": "./scss/index.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}

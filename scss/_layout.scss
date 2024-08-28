@@ -1,0 +1,7 @@
+$container-max-width: 1080px !default;
+
+%container {
+	max-width: calc($container-max-width + 2em);
+	margin: auto;
+	padding: 0 1em;
+}
