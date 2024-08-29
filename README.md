@@ -1,5 +1,7 @@
 # SCiSSors
 
+![Workflow Status](https://github.com/quangdaon/scissors/actions/workflows/npm-publish.yml/badge.svg)
+
 An opinionated set of tools for SCSS. Part of the @quangdao/brandkit.
 
 ## Usage
