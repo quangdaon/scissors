@@ -7,7 +7,7 @@ An opinionated set of tools for SCSS. Part of the @quangdao/brandkit.
 I still gotta figure this out, but you can import stuff using:
 
 ```scss
-@import '@quangdao/scssors/scss/breakpoints';
+@import '@quangdao/scissors/scss/breakpoints';
 ```
 
 Or add an alias:
@@ -25,3 +25,7 @@ Or add an alias:
 // main.scss
 @import '@scssors/breakpoints';
 ```
+
+## Guidelines
+
+Review the branding guidelines in [the Brand Kit](https://github.com/quangdaon/brandkit/blob/main/styleguides/scissors.md).

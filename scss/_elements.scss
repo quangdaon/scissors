@@ -1,0 +1,7 @@
+@mixin anchor {
+  a,
+  a:active,
+  a:visited {
+    @content;
+  }
+}

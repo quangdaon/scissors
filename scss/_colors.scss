@@ -1,0 +1,37 @@
+$color-sets: (
+  gray: (
+    0: #f7f7f9,
+    50: #e1e1e6,
+    200: #e6e6e6,
+    300: #b9babb,
+    850: #0b1525,
+    900: #04080f,
+    base: var(--color-gray-850),
+  ),
+  green: (
+    base: green,
+  ),
+  blue: (
+    base: blue,
+  ),
+  red: (
+    base: red,
+  ),
+) !default;
+
+$alphas: (
+  1: 0.2,
+  5: 0.5,
+  8: 0.8,
+);
+
+@mixin shades {
+  @each $hue, $shades in $color-sets {
+    @each $shade, $value in $shades {
+      --color-#{""+ $hue}-#{$shade}: #{$value};
+      @each $level, $opacity in $alphas {
+        --color-#{""+ $hue}-#{$shade}-op-#{$level}: #{rgba($value, $opacity)};
+      }
+    }
+  }
+}
