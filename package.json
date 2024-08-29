@@ -1,6 +1,6 @@
 {
   "name": "@quangdao/scissors",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Opinionated Utilities for SCSS",
   "main": "./scss/index.scss",
   "style": "./scss/index.scss",
